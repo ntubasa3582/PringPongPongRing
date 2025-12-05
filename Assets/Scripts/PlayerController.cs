@@ -51,7 +51,6 @@ public class PlayerController : MonoBehaviour
         {
             _isGrounded = true;
             PlayerJump();
-            Debug.Log(_jumpPower);
         }
     }
     //ジャンプ力を変更するメソッド
