@@ -58,4 +58,14 @@ public class PlayerController : MonoBehaviour
     {
         _jumpPower += value;
     }
+
+    /// <summary>
+    /// プレイヤーの移動速度を変更するメソッド
+    /// </summary>
+    /// <param name="value"></param>
+    public void SpeedChange(float value)
+    {
+        _moveSpeed += value;
+    }
+
 }
