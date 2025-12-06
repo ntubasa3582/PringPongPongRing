@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 public class ItemBase : MonoBehaviour
 {
-    public PlayerController _playerController;
+    protected PlayerController _playerController;
     /// <summary>
     /// // ƒAƒCƒeƒ€æ“¾‚Ìˆ—
     /// </summary>
